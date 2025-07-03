@@ -1,5 +1,7 @@
 # Homework21
 
+# DAY3 
+
 📘 README.md: shop_db loyihasi
 
 🗂️ 1-qism: Ma’lumotlar bazasini yaratish va SELECT so‘rovlar
@@ -55,8 +57,79 @@
 ✅ Natija
 Ushbu loyiha orqali siz:
 
+
 Ma’lumotlar bazasini yaratishni
 Jadvallararo One-to-One, One-to-Many, Many-to-Many munosabatlarni tashkil etishni
 SELECT so‘rovlar bilan ishlashni
 Jadval strukturasini o‘zgartirishni o‘rgandingiz.
 📎 Eslatma: Har bir kod bo‘lagining rasmiy isboti sifatida yuqoridagi skrinshotlar ilova qilingan bo‘lishi lozim.
+
+# day 4
+# 🎥 Mix.TJ — Videoxosting bazasi
+
+## 📁 Loyihaning maqsadi
+
+Mix.TJ — bu foydalanuvchilar video yuklashi, ko‘rishi va izoh qoldirishi mumkin bo‘lgan videoxosting xizmatidir. Bu fayl loyihada ishlatilgan **PostgreSQL ma’lumotlar bazasi** strukturasini va SQL so‘rovlarini ko‘rsatadi.
+
+---
+
+## 🏗️ 1. Baza va jadvallarni yaratish
+
+📌 Quyidagi rasm(lar)da `mix_tj` nomli baza va quyidagi jadvallar yaratilgani aks etgan:
+
+- `users`
+- `categories`
+- `videos`
+- `comments`
+- `ratings`
+- `favorites`
+
+
+
+## 🗃️ 2. SQL-so‘rovlar
+
+📌 Quyidagi rasm(lar)da 26 ta topshiriq bo‘yicha yozilgan **SELECT** va **AGGREGATE** so‘rovlar mavjud:
+
+📷 **Rasm 2: SELECT so‘rovlari (1–13)**
+<img width="300" alt="Screenshot 2025-07-03 at 03 16 05" src="https://github.com/user-attachments/assets/5c00191e-d96b-4b60-8652-1755e53d1819" />   <img width="300" alt="Screenshot 2025-07-03 at 03 17 14" src="https://github.com/user-attachments/assets/eb513072-f895-48c0-880b-7959d80c0bad" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 19 33" src="https://github.com/user-attachments/assets/6a18316b-c4ad-4889-ad24-e9f9adc40967" />    <img width="300" alt="Screenshot 2025-07-03 at 03 23 06" src="https://github.com/user-attachments/assets/852c02be-ca0a-4bcb-ac9d-be863e1e784a" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 28 32" src="https://github.com/user-attachments/assets/da1f0724-95c3-45ec-801a-5edfa1aea179" />   <img width="300" alt="Screenshot 2025-07-03 at 03 32 22" src="https://github.com/user-attachments/assets/ae82ba9d-41a5-40c5-a10d-abc79d4d557a" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 33 42" src="https://github.com/user-attachments/assets/c25ae290-ebb6-44b0-898e-750080295e8c" />    <img width="300" alt="Screenshot 2025-07-03 at 03 37 50" src="https://github.com/user-attachments/assets/0885ebc0-5d87-4273-9a86-4d4d38f6d777" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 39 27" src="https://github.com/user-attachments/assets/167b3ae6-2e8e-4cb9-abfb-ecc9a25d38ee" />    <img width="300" alt="Screenshot 2025-07-03 at 03 41 35" src="https://github.com/user-attachments/assets/0fa3aeca-5b4e-4bf0-929b-cf8dc1b659f6" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 42 35" src="https://github.com/user-attachments/assets/60c82b07-b9b5-4817-b207-ba0eff402f9b" />    <img width="300" alt="Screenshot 2025-07-03 at 03 44 19" src="https://github.com/user-attachments/assets/9309ae2d-720e-41b6-b90b-5d7560f38ebf" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 45 52" src="https://github.com/user-attachments/assets/a9c03e07-3abb-4ae7-b494-f7980b850fc3" />
+
+
+
+📷 **Rasm 3: SELECT so‘rovlari (14–26)**
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 47 55" src="https://github.com/user-attachments/assets/1ddb0730-82e8-403b-a951-622fe2a0429b" />    <img width="300" alt="Screenshot 2025-07-03 at 03 53 49" src="https://github.com/user-attachments/assets/92e3a4f6-aba6-4f70-b497-9e37b49f04cc" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 03 58 22" src="https://github.com/user-attachments/assets/645a06e2-7f16-41ca-b4be-68bc5718d25e" />      <img width="300" alt="Screenshot 2025-07-03 at 03 59 48" src="https://github.com/user-attachments/assets/b1898c93-dc65-4fa0-bd59-d52d1405e234" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 04 01 41" src="https://github.com/user-attachments/assets/b52d0ddb-3141-4c58-b297-7f18461c15f2" />      <img width="300" alt="Screenshot 2025-07-03 at 04 02 38" src="https://github.com/user-attachments/assets/d94e593e-8e64-4f2f-b55b-f175cb6990f8" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 04 04 02" src="https://github.com/user-attachments/assets/02b41108-3033-4310-b19a-8848bb3d2e7c" />       <img width="300" alt="Screenshot 2025-07-03 at 04 05 08" src="https://github.com/user-attachments/assets/ab4adbf1-5c83-4c1c-a46f-a31854c59ee5" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 04 05 50" src="https://github.com/user-attachments/assets/ec8bb006-6724-460a-8177-5854a4c604b6" />      <img width="300" alt="Screenshot 2025-07-03 at 04 08 40" src="https://github.com/user-attachments/assets/4457f7ab-2c37-4153-b06b-ee12649f2914" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 04 09 41" src="https://github.com/user-attachments/assets/2c940590-7d5e-405e-b8e3-561a89712d9c" />      <img width="300" alt="Screenshot 2025-07-03 at 04 11 36" src="https://github.com/user-attachments/assets/02cbe3b3-3301-426f-88f5-3e5183c69a61" />
+
+<img width="300" alt="Screenshot 2025-07-03 at 04 12 42" src="https://github.com/user-attachments/assets/5dc59e69-9c75-4e87-9b6a-49a128275138" />
+
+---
+## ✅ Yakuniy eslatmalar
+
+- `videos.status` qiymatlari: `opublikovano`, `chernovik`
+- `rating` qiymatlari 1 dan 5 gacha: `CHECK (rating BETWEEN 1 AND 5)`
+- Har bir jadval boshqa jadval bilan bog‘langan: `ON DELETE CASCADE` qo‘llanilgan
+- Skrinshotlar bazadagi amaliy ishlaringizni tasdiqlash uchun ilova qilinadi
+
+
+
