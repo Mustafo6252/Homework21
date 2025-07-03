@@ -20,7 +20,7 @@
 🔍 Quyidagi 5ta so‘rov orders, user_profiles, products, order_products va users jadvallarida ma’lumotlarni filtrlash uchun yozilgan:
 📷 Rasm 3: SELECT so‘rovlar
 
-<img width="300" alt="Screenshot 2025-07-02 at 23 47 4" src="https://github.com/user-attachments/assets/972cbd38-7ac2-4c91-8328-ff6aa16387a4"  <img width="300" alt="Screenshot 2025-07-02 at 23 48 43" src="https://github.com/user-attachments/assets/5e25b367-7682-48f6-85cb-cafb01b1767a" />
+<img width="300" alt="Screenshot 2025-07-02 at 23 47 4" src="https://github.com/user-attachments/assets/972cbd38-7ac2-4c91-8328-ff6aa16387a4">  <img width="300" alt="Screenshot 2025-07-02 at 23 48 43" src="https://github.com/user-attachments/assets/5e25b367-7682-48f6-85cb-cafb01b1767a" />
 
 <img width="300" alt="Screenshot 2025-07-02 at 23 49 5 2" src="https://github.com/user-attachments/assets/05a59e5b-f5f9-4bd4-8834-5cffe9b103ec" />
 
@@ -31,23 +31,27 @@
 🛒 products jadvaliga yangi ustun (description), default qiymatli ustun (stock), va price ustunini formatlash amallari bajarilgan:
 📷 Rasm 4: Products jadvali o‘zgarishlari
 
-[Bu yerga rasm qo‘ying — masalan, "04_alter_products.png"]
+<img width="300" alt="Screenshot 2025-07-03 at 00 08 26" src="https://github.com/user-attachments/assets/01d7f557-19e9-4590-9c14-2bdfc5edc8aa" />   <img width="300" alt="Screenshot 2025-07-03 at 00 2 26" src="https://github.com/user-attachments/assets/e44c47b6-ab88-45a1-bfa7-0de33fb8f98d" />
+
 🔸 2.2. orders jadvaliga status qo‘shish
 
 📷 Rasm 5: Orders jadvaliga status ustuni qo‘shish
 
-[Bu yerga rasm qo‘ying — masalan, "05_add_status_column.png"]
+<img width="300" alt="Screenshot 2025-07-03 at 00 22" src="https://github.com/user-attachments/assets/0599f841-07cc-4106-a35e-a24a1fcd3004" />
+
 🔸 2.3. user_profiles jadvalidagi o‘zgarishlar
 
 ☎️ Telefon raqam ustunining formatini o‘zgartirish va keyin olib tashlash amallari:
 📷 Rasm 6: Phone ustunini yangilash va o‘chirish
 
-[Bu yerga rasm qo‘ying — masalan, "06_drop_phone.png"]
+<img width="300" alt="Screenshot 2025-07-03 at 00 25 0" src="https://github.com/user-attachments/assets/ed14c4ec-851c-43be-af46-251041cb0d9b" />
+
 🔸 2.4. order_products jadvaliga chet kalit qo‘shish
 
 📷 Rasm 7: FK qo‘shish
 
-[Bu yerga rasm qo‘ying — masalan, "07_add_foreign_key.png"]
+<img width="300" alt="Screenshot 2025-07-03 at 00 27 04" src="https://github.com/user-attachments/assets/69d040dc-4488-4991-9b01-56f5007f510d" />
+
 ✅ Natija
 Ushbu loyiha orqali siz:
 
